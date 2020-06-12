@@ -12,4 +12,24 @@ socketApi.sendNotification = function() {
     io.sockets.emit('hello', {msg: 'Hello World!'});
 }
 
+socketApi.sendTabOne = function(data){
+    io.sockets.emit('tapOne', data)
+}
+
+socketApi.sendTabTwo = function(data){
+    io.sockets.emit('tapTwo', data)
+}
+
+socketApi.sendTabThree = function(data){
+    io.sockets.emit('tapThree', data)
+}
+
+socketApi.sendTabFour = function(data){
+    io.sockets.emit('tapFour', data)
+}
+
+socketApi.sendTabFive = function(data){
+    io.sockets.emit('tapFive', data)
+}
+
 module.exports = socketApi;

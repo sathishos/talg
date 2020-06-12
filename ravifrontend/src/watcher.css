@@ -1,0 +1,17 @@
+.boardWrapper {
+  display: grid;
+    grid-template-columns: min-content min-content min-content min-content min-content;
+}
+
+.tap {
+  display: grid;
+  grid-template-columns: min-content min-content min-content;
+}
+
+.tikerWrapper{
+  display: grid;
+}
+
+.marketWatchWrapper{
+  display: grid;
+}
